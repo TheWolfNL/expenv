@@ -2,7 +2,9 @@ expenv - Expand environment variables [![Build Status](https://travis-ci.org/bla
 ======
 Expenv replaces ${var} or $var in the input to the values of the current environment variables. Supports stdin/stdout and files.
 
-There is also a newer version available, [expenv.sh](https://github.com/blang/expenv.sh), written as shell script.
+Installation
+-----
+Go to the releases page and select the proper binary file, make sure to add it to your path.
 
 Usage
 -----
