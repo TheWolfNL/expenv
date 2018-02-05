@@ -1,19 +1,15 @@
-expenv - Expand environment variables [![Build Status](https://travis-ci.org/blang/expenv.svg?branch=master)](https://travis-ci.org/blang/expenv)
+expenv - Expand environment variables
 ======
 Expenv replaces ${var} or $var in the input to the values of the current environment variables. Supports stdin/stdout and files.
 
 Installation
 -----
-Go to the releases page and select the proper binary file, make sure to add it to your path.
+You could use one of the snippets below or go to the [releases page](https://github.com/TheWolfNL/expenv/releases) and select the proper binary file, make sure to add it to your path.
 
-Usage
------
-```bash
-$ go get github.com/blang/expenv
-$ $GOPATH/bin/expenv -f inputfile
+Installer
 ```
-
-If you don't want to build it, you might want to download the [ELF x86-64 binary](https://github.com/blang/expenv/releases/latest) of the latest release (build by travis-ci).
+curl -o- -L https://raw.githubusercontent.com/TheWolfNL/expenv/master/installer.sh | bash
+```
 
 Examples
 -----
