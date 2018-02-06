@@ -8,7 +8,7 @@ esac
 
 echo "Downloading expenv"
 # Abuse svn export to download the binary
-cd ~/ && svn export https://github.com/TheWolfNL/expenv/trunk/bin/$FILE ~/expenv > /dev/null
+cd ~/ && curl -L -o expenv https://github.com/TheWolfNL/expenv/releases/download/v1.2.0/$FILE
 chmod +x ~/expenv
 
 echo "Installing expenv"
